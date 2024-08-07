@@ -2,9 +2,9 @@
 
 set -ex
 
-CYDIR=$(git rev-parse --show-toplevel)
+CYDIR=$(git rev-parse --show-superproject-working-tree)
 G_DIR=$CYDIR/generators/gemmini/software/gemmini-rocc-tests
-O_DIR=$CYDIR/software/tutorial/overlay/root
+O_DIR=$CYDIR/software/firemarshal/workloads/imagenet/overlay/root
 
 echo "Building Gemmini RoCC tests"
 cd $G_DIR

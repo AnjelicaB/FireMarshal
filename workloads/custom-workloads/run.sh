@@ -31,4 +31,4 @@ marshal install matmul_fence-linux.yaml &&
 # # Test2: on Firesim no trigger
 marshal build matmul_fence-linux-Tr.yaml &&
 marshal install matmul_fence-linux-Tr.yaml
-} > log.txt 2>&1
+} > $temp/log.txt 2>&1
