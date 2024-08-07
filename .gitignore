@@ -6,5 +6,6 @@ wlutil/_command.sh
 marshal-config.yaml
 boards/default/distros/ubuntu/rootfs.img*
 .ropeproject
+**/log.txt
 *~
 *#
